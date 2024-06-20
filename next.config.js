@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  basePath: '/your-repo-name',
-  assetPrefix: '/your-repo-name/',
+  basePath: '/CheckMe',
+  assetPrefix: '/CheckMe/',
 };
 
 module.exports = nextConfig;
