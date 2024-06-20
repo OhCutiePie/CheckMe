@@ -1,10 +1,8 @@
-export default function notFound() {
-
+export function NotFound() {
   return (
-    <div className='box'>
-      <img alt='sigh' className='gif' src='/sigh.gif' />
+    <div className="box">
+      <img alt="sigh" className="gif" src="/sigh.gif" />
       Page not found
     </div>
-  )
-  
+  );
 }
