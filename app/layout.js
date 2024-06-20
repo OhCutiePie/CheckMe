@@ -1,19 +1,16 @@
-import './style.css'
+import './style.css';
 
-export default function layout({ children })
-{
-
+export default function Layout({ children }) {
   return (
     <html>
       <head>
         <title>Im gonna kill you ;)</title>
-        <link rel='icon' type='image/png' href='/heart.png' />
-        <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Jua' />
+        <link rel="icon" type="image/png" href="/heart.png" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua" />
       </head>
-      <body id='app'>
+      <body id="app">
         {children}
       </body>
     </html>
-  )
-
+  );
 }
